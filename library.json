@@ -1,0 +1,54 @@
+{
+    "name": "PulsDio",
+    "version": "1.0.3",
+    "license": "MIT",
+    "description": "Library for Dio class with puls detection and optional features",
+    "keywords": ["Puls","Dio", "library", "optional features"],
+    "frameworks": ["arduino"],
+    "platforms": ["atmelavr", "esp32", "esp8266"],
+    "authors": [
+      {
+        "name": "Christof Seidel",
+        "email": "your_email@example.com"
+      }
+    ],
+    "homepage": "https://none.de",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/your_username/your_library_repository.git"
+    },
+    "dependencies": 
+    [
+      
+      {
+        "owner": "codename666",
+        "name": "Dio",
+        "version": "^1.1.1"
+      },
+
+      {
+        "owner": "codename666",
+        "name": "DebugIf",
+        "version": "^1.3.0"
+      },
+          
+      {
+        "owner": "codename666",
+        "name": "SignalAnalysis",
+        "version": "^1.0.3"
+      }
+    ]	,
+    
+    "srcDir": "src",
+    "includeDir": [
+      "include"
+    ],
+    "headers": [
+      "PulsDio.h"
+      
+    ],
+    "examples": [
+      "examples/basic_usage/basic_usage.ino"
+    ]
+  }
+  
